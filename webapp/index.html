@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ajax Registration | Java Servlet</title>
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/reset.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="assets/js/index.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <section class="left">
+      <div class="wrapper">
+        <p>Have an account? <a href="sign-in">Sign In</a></p>
+        <div>
+          <h1>Welcome to Dev.D</h1>
+          <p>It heart flitting lenore velvet lie balm, wandering bird<br>though that he floor of hopes the, not craven
+            loneliness this.</p>
+
+          <!-- Form Start -->
+          <form action="sign-up" method="post">
+            <div>
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="example@mail.com" autofocus required />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" minlength="6"
+                placeholder="6 &GreaterEqual; strong character" required />
+            </div>
+            <button type="submit">Create an account</button>
+          </form>
+          <!-- Form End -->
+          <div class="text-bw-lines">
+            <hr />
+            <p>Or sing up with</p>
+            <hr />
+          </div>
+          <div class="login-icons">
+            <div>
+              <img src="assets/images/google.svg" alt="google icon" />
+            </div>
+            <div>
+              <img src="assets/images/facebook.svg" alt="facebook icon" />
+            </div>
+            <div>
+              <img src="assets/images/apple.svg" alt="apple icon" />
+            </div>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </section>
+    <section class="right">
+      <div class="wrapper">
+        <h1>Make a Dream.</h1>
+        <div class="indent">
+          <p>"Something not of and books whom token his plutonian, ever vainly that i my a relevancy memories"<br>UI
+            Designed by <span><a href="https://bit.ly/3hELfRm" target="_blank">Ghaist Hatta</a></span>,
+            Developed by <span><a href="https://www.linkedin.com/in/piyushpranjal/" target="_blank">Piyush
+                Pranjal</a></span>
+          </p>
+          <div class="author">
+            <img src="assets/images/avatar.jpg" alt="developer avatar">
+            <div>
+              <p>Piyush Pranjal</p>
+              <p>Full Stack Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
